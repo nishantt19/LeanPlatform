@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+}
+
+.edit-input{
+    height: 56px;
+    width: 328px;
+    padding: 15px;
+    border: 1px solid #C2C8D0;
+border-radius: 4px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+    box-sizing: border-box;
+    color: #858585;
+}
+
+.edit-input:focus{
+    outline: 2px solid #007BAD;
+border-radius: 4px
+}
+
+.edit{
+    position: absolute;
+    top: 18px;
+    left: 342px;
+    text-decoration: underline;
+    color: #007BAD;
+}   
